@@ -56,6 +56,14 @@ The Streamlit interface provides:
 
 ---
 
+# Demo Video
+
+[![Watch the DxVar demo](https://img.youtube.com/vi/GIUQy7A3y28/maxresdefault.jpg)](https://youtu.be/GIUQy7A3y28?si=jnw0GkFmYogLWU8y)
+
+The demo presents the DxVar interface, variant ranking workflow, ACMG interpretation, ClinGen links, and literature-supported AI summaries.
+
+---
+
 # Research Paper Integration
 
 <p align="center">
