@@ -1,12 +1,25 @@
-# DxVar – AI-Driven Genomic Variant Analysis Tool
+# DxVar - AI-Driven Genomic Variant Analysis Tool
 
 AI-powered genomic variant prioritization platform for rare disease diagnosis using large language models, Exomiser, and biomedical literature analysis.
+
+> DxVar combines phenotype extraction, Exomiser ranking, biomedical evidence retrieval, and AI-assisted explanations into a clinician-facing Streamlit workflow.
 
 <p align="center">
   <img src="images/pipeline_flowchart.png" width="1100"/>
 </p>
 
 ---
+
+## Project Snapshot
+
+| Area | Details |
+|---|---|
+| Problem | Rare disease variant interpretation is slow and evidence-heavy |
+| Input | Clinical notes, HPO terms, variant data, gene-disease evidence |
+| Pipeline | HPO extraction -> Exomiser -> AI re-ranking -> literature summary |
+| Interface | Streamlit dashboard for variant review |
+| Benchmark | 10 GeneBreaker cases |
+| Result | AI-assisted re-ranking improved first-rank prioritization in tested cases |
 
 # Overview
 
@@ -21,6 +34,8 @@ The platform integrates:
 - Streamlit-based clinician interface
 
 The system combines bioinformatics pipelines with large language models to accelerate and improve variant interpretation workflows.
+
+> DxVar is a research prototype. Its AI summaries are intended to support review, not replace clinical judgment or formal diagnostic validation.
 
 ---
 
@@ -104,7 +119,7 @@ The evaluation compared extracted HPO terms against reference annotations.
   <img src="images/variant_ranking_results.png" width="1000"/>
 </p>
 
-DxVar’s AI-assisted re-ranking consistently improved variant prioritization performance compared to standalone Exomiser results.
+DxVar's AI-assisted re-ranking consistently improved variant prioritization performance compared to standalone Exomiser results.
 
 Key findings:
 - Exomiser ranked the causative gene first in 7/10 benchmark cases
